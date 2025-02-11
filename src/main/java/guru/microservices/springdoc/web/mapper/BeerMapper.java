@@ -1,7 +1,7 @@
-package guru.microservices.mssc_beer_service.web.mapper;
+package guru.microservices.springdoc.web.mapper;
 
-import guru.microservices.mssc_beer_service.domain.Beer;
-import guru.microservices.mssc_beer_service.web.model.BeerDTO;
+import guru.microservices.springdoc.domain.Beer;
+import guru.microservices.springdoc.web.model.BeerDTO;
 import org.mapstruct.Mapper;
 
 @Mapper(uses = {DateMapper.class})

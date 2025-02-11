@@ -1,4 +1,4 @@
-package guru.microservices.mssc_beer_service.web.mapper;
+package guru.microservices.springdoc.web.mapper;
 
 import org.springframework.stereotype.Component;
 

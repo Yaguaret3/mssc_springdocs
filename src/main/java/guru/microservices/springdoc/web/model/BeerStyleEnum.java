@@ -1,4 +1,4 @@
-package guru.microservices.mssc_beer_service.web.model;
+package guru.microservices.springdoc.web.model;
 
 public enum BeerStyleEnum {
 

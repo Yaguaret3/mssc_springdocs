@@ -1,6 +1,6 @@
-package guru.microservices.mssc_beer_service.service;
+package guru.microservices.springdoc.service;
 
-import guru.microservices.mssc_beer_service.web.model.BeerDTO;
+import guru.microservices.springdoc.web.model.BeerDTO;
 
 import java.util.UUID;
 

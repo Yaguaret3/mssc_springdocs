@@ -1,9 +1,9 @@
-package guru.microservices.mssc_beer_service.web.controller;
+package guru.microservices.springdoc.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import guru.microservices.mssc_beer_service.service.BeerService;
-import guru.microservices.mssc_beer_service.web.model.BeerDTO;
-import guru.microservices.mssc_beer_service.web.model.BeerStyleEnum;
+import guru.microservices.springdoc.service.BeerService;
+import guru.microservices.springdoc.web.model.BeerDTO;
+import guru.microservices.springdoc.web.model.BeerStyleEnum;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -21,7 +21,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest(BeerController.class)
-@ComponentScan(basePackages = "guru.microservices.mssc_beer_services.web.mapper")
+@ComponentScan(basePackages = "guru.microservices.mssc_springdocss.web.mapper")
 class BeerControllerTest {
 
     @Autowired

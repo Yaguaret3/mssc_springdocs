@@ -1,7 +1,7 @@
-package guru.microservices.mssc_beer_service.bootstrap;
+package guru.microservices.springdoc.bootstrap;
 
-import guru.microservices.mssc_beer_service.domain.Beer;
-import guru.microservices.mssc_beer_service.repositories.IBeerRepository;
+import guru.microservices.springdoc.domain.Beer;
+import guru.microservices.springdoc.repositories.IBeerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package guru.microservices.mssc_beer_service.domain;
+package guru.microservices.springdoc.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
