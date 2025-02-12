@@ -1,9 +1,6 @@
 package guru.microservices.springdoc.web.model;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Null;
-import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -26,9 +23,11 @@ public class BeerDTO {
     private UUID id;
 
     @NotBlank
+    @Size(min = 3, max = 100)
     private String beerName;
     @NotNull
     private BeerStyleEnum beerStyle;
+    @Positive
     private Long quantityOnHand;
 
     @NotNull
@@ -41,5 +40,5 @@ public class BeerDTO {
     @Null
     private OffsetDateTime createdDate;
     @Null
-    private OffsetDateTime lasModifiedDate;
+    private OffsetDateTime lastModifiedDate;
 }
